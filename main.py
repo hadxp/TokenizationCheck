@@ -11,9 +11,9 @@ model_name = "hunyuanvideo-community/HunyuanVideo"
 tokenizer = LlamaTokenizerFast.from_pretrained(
     model_name, subfolder="tokenizer"
 )
-tokenizer_2 = CLIPTokenizer.from_pretrained(
-    model_name, subfolder="tokenizer_2"
-)
+#tokenizer_2 = CLIPTokenizer.from_pretrained(
+#    model_name, subfolder="tokenizer_2"
+#)
 
 tokens = tokenizer.tokenize(trigger_word)
 #tokens2 = tokenizer_2.tokenize(trigger_word)
